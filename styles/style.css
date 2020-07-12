@@ -1,0 +1,24 @@
+body{
+    background: url(../images/Background-website-01.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.name-block
+{
+    background-color: aqua;
+    margin-bottom: 0px;
+}
+
+.remove-padding
+{
+    padding: 0;
+}
+
+li 
+{
+    float: left;
+    padding-left: 8px;
+}
