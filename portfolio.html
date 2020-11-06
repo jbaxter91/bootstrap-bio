@@ -1,173 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | John Baxter</title>
 
     <!-- Styles -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets\styles\style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets\styles\style.css" />
+  </head>
+  <body>
     <!-- Start Navbar -->
     <header class="container p-0">
-    
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand col-xs-4 text-sm-center" href="#">John Baxter</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand col-xs-4 text-sm-center" href="#">John Baxter</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Portfolio <span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- End Navbar -->
 
     <!-- Start Portfolio Content Section -->
     <main class="container">
+      <div class="row mt-4">
+        <h1 class="col-md-12 mx-auto bg-light">
+          Portfolio
+          <hr />
+        </h1>
+      </div>
 
-        <div class="row mt-4">
-            <h1 class="col-md-12 mx-auto bg-light">
-                Portfolio
-                <hr/>
-            </h1>
-        </div>
+      <div class="row justify-content-md-center">
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Lil Fish Go</h2>
+            <a href="assets\images\little-fish-go.jpg"
+              ><img
+                class="card-img-top"
+                src="assets\images\little-fish-go.jpg"
+                alt="Little fish title image - sardines, coral, and a shark"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                A fun flappy birds clone where you control a fish just trying to
+                survive in the ocean. This game was deployed to the google play
+                store. It eventually had to be removed however because i ended
+                up losing the source code. The important lesson here was always
+                backup / use VCS
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Weedmates</h2>
+            <a href="https://weedmates.herokuapp.com/"
+              ><img
+                class="card-img-top"
+                src="https://github.com/jbaxter91/weedmates/blob/main/repo_resources/Images/weedmates-1.png?raw=true"
+                alt="Weedmates | Find your perfect smoking buddy"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                A friend and I were sitting around talking about weed and realized that there was nothing that openly tried to connect
+                people so they can smoke together.  So we worked together and built one!  Think of it like
+                the tinder of weedsmoking.  Both users need to like each other in order to be a match and talk to eachother
+                For a link to the repo Click<a href="https://github.com/jbaxter91/weedmates">
+                  HERE</a
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Iron Lotus</h2>
+            <a href="assets\images\iron-lotus.png"
+              ><img
+                class="card-img-top"
+                src="assets\images\iron-lotus.png"
+                alt="Iron lotus main logo - Lotus flower with cogs built into it"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                Iron lotus is a 2D side scrolling beat em up set in a world
+                where steam punk fused with traditional japanese culture. This
+                game had the most story built into it. There are 5 playable
+                characters, all with their own backstory and purpose.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Project Murphy</h2>
+            <a href="assets\images\Project-Murphy-Menu-Screen.png"
+              ><img
+                class="card-img-top"
+                src="assets\images\Project-Murphy-Menu-Screen.png"
+                alt="Project Murphy game's title screen"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                Project Murphy started as a vague concept of turning a 3D game
+                called "7 days to die" into a 2D top down game. This project
+                really tested my ability to work with the unity lighting system
+                as we really wanted to have a dark atmosphere and rely heavily
+                on lights.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Blackjack Bot</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                src="assets\videos\blackjack-bot.mp4"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                A fun little side project I started to test my skills. This
+                program was designed to play blackjack using basic strategy and
+                a martingale betting pattern. Because this company gives you
+                casino comps for playing, this bot ended up earning me a few
+                free meals and free shows when i went to vegas on vacation.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Super Similar</h2>
+            <a href="https://ssbrear.github.io/group-project/"
+              ><img
+                class="card-img-top"
+                src="assets\images\super-similar-dropdown.png"
+                alt="Super Similar home screen"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                Super Similar is a passion project Sebastian Brear, Cynthia
+                Mojika, and myself. The idea was to build a website that could
+                help anyone find something to watche based on things they know
+                they already enjoy. You can find the github
+                <a href="https://github.com/ssbrear/group-project">HERE</a>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">Weather Widget</h2>
+            <a href="https://jbaxter91.github.io/weather-forcast/"
+              ><img
+                class="card-img-top"
+                src="assets\images\weather-dashboard-search-small-display.png"
+                alt="Weather Dashboard"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                This was a quick attempt at using an open api to get information
+                and display it. Not only does the data get fetched from
+                openweathermap, it also stores searches to local storage. You
+                can find the github repo for this project<a
+                  href="https://github.com/jbaxter91/weather-forcast"
+                >
+                  HERE</a
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="col-md-4 my-sm-4 my-4">
+          <div class="card">
+            <h2 class="text-center">JS Code Quiz</h2>
+            <a href="https://jbaxter91.github.io/coding-quiz/"
+              ><img
+                class="card-img-top"
+                src="assets\images\home-screen-responsive.png"
+                alt="JS Code Quiz"
+            /></a>
+            <div class="card-body">
+              <p class="card-text">
+                I wanted to test my skills in js by creating a timed quiz. This
+                project was a lot of fun and really solidified my knowlege of
+                using timers in javascript You can find the github repo for this
+                project<a href="https://github.com/jbaxter91/coding-quiz">
+                  HERE</a
+                >
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
 
-        <div class="row justify-content-md-center">
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Lil Fish Go</h2>
-                    <a href="assets\images\little-fish-go.jpg"><img class="card-img-top" src="assets\images\little-fish-go.jpg" alt="Little fish title image - sardines, coral, and a shark"></a>
-                    <div class="card-body">
-                        <p class="card-text">A fun flappy birds clone where you control a fish just trying to survive in the ocean.  
-                            This game was deployed to the google play store.  
-                            It eventually had to be removed however because i ended up losing the source code.
-                            The important lesson here was always backup / use VCS
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Iron Lotus</h2>
-                    <a href="assets\images\iron-lotus.png"><img class="card-img-top" src="assets\images\iron-lotus.png" alt="Iron lotus main logo - Lotus flower with cogs built into it"></a>
-                    <div class="card-body">
-                        <p class="card-text">Iron lotus is a 2D side scrolling beat em up set in a world where steam punk fused with traditional japanese culture.
-                            This game had the most story built into it.  There are 5 playable characters, all with their own backstory and purpose.
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Project Murphy</h2>
-                    <a href="assets\images\Project-Murphy-Menu-Screen.png"><img class="card-img-top" src="assets\images\Project-Murphy-Menu-Screen.png" alt="Project Murphy game's title screen"></a>
-                    <div class="card-body">
-                        <p class="card-text">Project Murphy started as a vague concept of turning a 3D game called "7 days to die" into a 2D top down game.
-                            This project really tested my ability to work with the unity lighting system as we really wanted to have a dark atmosphere and rely heavily on lights.
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Blackjack Bot</h2>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="assets\videos\blackjack-bot.mp4" style="border:none;overflow:hidden" scrolling="no" frameborder="0"></iframe>
-                    </div>
-                    <div class="card-body">
-                    <p class="card-text">A fun little side project I started to test my skills.
-                        This program was designed to play blackjack using basic strategy and a martingale betting pattern.
-                        Because this company gives you casino comps for playing, this bot ended up earning me a few free meals and free shows when i went to vegas on vacation.
-                    </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Super Similar</h2>
-                    <a href="https://ssbrear.github.io/group-project/"><img class="card-img-top" src="assets\images\super-similar-dropdown.png" alt="Super Similar home screen"></a>
-                    <div class="card-body">
-                    <p class="card-text"> Super Similar is a passion project Sebastian Brear, Cynthia Mojika, and myself.  The idea was to build a website that could help anyone find something to watche based on things they
-                        know they already enjoy. You can find the github <a href="https://github.com/ssbrear/group-project">HERE</a>
-                    </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">Weather Widget</h2>
-                    <a href="https://jbaxter91.github.io/weather-forcast/"><img class="card-img-top" src="assets\images\weather-dashboard-search-small-display.png" alt="Weather Dashboard"></a>
-                    <div class="card-body">
-                    <p class="card-text"> This was a quick attempt at using an open api to get information and display it.  Not only does the data get fetched from openweathermap, it also stores searches to local storage.
-                        You can find the github repo for this project<a href="https://github.com/jbaxter91/weather-forcast">  HERE</a>
-                    </p>
-                    </div>
-                </div>
-            </article>
-            <article class="col-md-4 my-sm-4 my-4">
-                <div class="card">
-                    <h2 class="text-center">JS Code Quiz</h2>
-                    <a href="https://jbaxter91.github.io/coding-quiz/"><img class="card-img-top" src="assets\images\home-screen-responsive.png" alt="JS Code Quiz"></a>
-                    <div class="card-body">
-                    <p class="card-text"> I wanted to test my skills in js by creating a timed quiz.  This project was a lot of fun and really solidified my knowlege of using timers in javascript
-                        You can find the github repo for this project<a href="https://github.com/jbaxter91/coding-quiz">  HERE</a>
-                    </p>
-                    </div>
-                </div>
-            </article>
-        </div>
-
-        <!-- Break for sticky footer spacing -->
-        <br>
-        
+      <!-- Break for sticky footer spacing -->
+      <br />
     </main>
     <!-- End Portfolio Content Section -->
 
     <!-- Start Sticky Footer -->
-    <footer class=" fixed-bottom container remove-padding">
-    
-        <div class="row bg-light">
-            <div class="col-md-1 col-1">
-                <a href="https://www.facebook.com/john.baxter.7777" class="fa fa-facebook"></a>
-                
-            </div>
-            <div class="col-md-1 col-1">
-                <a href="https://github.com/jbaxter91" class="fa fa-github"></a>
-                
-            </div>
-            <div class="col-md-1 col-1">
-                <a href="https://www.linkedin.com/in/john-baxter-4624a3119/" class="fa fa-linkedin"></a>
-                
-            </div>
-            <div class="col-md-1 col-1">
-                <a href="https://www.youtube.com/channel/UCiYx-2aReM9GG3LvdFdKJjQ" class="fa fa-youtube"></a>
-                
-            </div>
+    <footer class="fixed-bottom container remove-padding">
+      <div class="row bg-light">
+        <div class="col-md-1 col-1">
+          <a
+            href="https://www.facebook.com/john.baxter.7777"
+            class="fa fa-facebook"
+          ></a>
         </div>
-
+        <div class="col-md-1 col-1">
+          <a href="https://github.com/jbaxter91" class="fa fa-github"></a>
+        </div>
+        <div class="col-md-1 col-1">
+          <a
+            href="https://www.linkedin.com/in/john-baxter-4624a3119/"
+            class="fa fa-linkedin"
+          ></a>
+        </div>
+        <div class="col-md-1 col-1">
+          <a
+            href="https://www.youtube.com/channel/UCiYx-2aReM9GG3LvdFdKJjQ"
+            class="fa fa-youtube"
+          ></a>
+        </div>
+      </div>
     </footer>
     <!-- End Sticky Footer -->
 
     <!-- Bootstrap Javascript links -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
